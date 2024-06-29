@@ -1,4 +1,4 @@
-# ქართული ტექსტის სიტყვის სინთეზი / Georgian-TTS 
+# ქართული ტექსტის სიტყვის სინთეზი / Georgian-TTS (Georgian text to speech synthesis)
 ქართული ტექსტის სიტყვის სინთეზი /
 Georgian text to speech synthesis
 ## ეს ნიმუშები გამოიყენება მხოლოდ კვლევისთვის ყოველგვარი კომერციული გამოყენების გარეშე / This samples are used only for research without any commercial usage
