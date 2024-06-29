@@ -5,7 +5,7 @@ Georgian text to speech synthesis
 # ყველა ნიმუში არის 22050 Hz / All samples are in 22050 Hz
 
 
-https://github.com/icegas/Georgian-TTS/assets/32134483/e387fb0a-5b6b-4d40-8892-1948ff13e4d9 https://github.com/icegas/Georgian-TTS/assets/32134483/426f9fc8-2d26-44ec-84e3-8b511c9cb51e
+https://github.com/icegas/Georgian-TTS/assets/32134483/e387fb0a-5b6b-4d40-8892-1948ff13e4d9 | https://github.com/icegas/Georgian-TTS/assets/32134483/426f9fc8-2d26-44ec-84e3-8b511c9cb51e
 
 
 
