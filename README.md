@@ -16,11 +16,11 @@ Chart with MOS scores that was estimated from generated audio using 1000 phrases
 # შესრულების ანალიზი / Performance analysis
 შესრულების შედეგები გამოცდილი იყო GPU RTX 4090 (24 GB) და CPU 13th Gen Intel(R) Core(TM) i9-13900K. \
 Ubuntu 22.04.4 LTS \
-Box-ის ნახაზები სხვადასხვა რაოდენობის სიმბოლოებით, აუდიო ხანგრძლივობით და მათი დარღვევის დრო Cpu-სა და gpu-ზე მოცემულია ქვემოთ. ქვემოთ მოცემული სქემებიდან და ცხრილიდან ხედავთ, რომ ადვილია მისი რეალურ დროში გამოყენება gpu-ს გამოყენებით.\
+ექსპერიმენტები ჩატარდა სხვადასხვა რაოდენობის სიმბოლოებით, აუდიო ხანგრძლივობით და მათი დასკვნის დრო Cpu-ზე და gpu-ზე და მოცემულია ქვემოთ. ქვემოთ მოცემული სქემებიდან და ცხრილიდან ხედავთ, რომ მისი რეალურ დროში გამოყენება მარტივია gpu-ს გამოყენებით.\
 <br />
 Performance results was tested on GPU RTX 4090 (24GB) and CPU 13th Gen Intel(R) Core(TM) i9-13900K. \
 Ubuntu 22.04.4 LTS \
-Box plots with different number of characters, audio durations and their infrence time on cpu and gpu is given below. You can see from charts and table below, that it easy to use it in real time using gpu.
+Experements was done with different number of characters, audio durations and their infrence time on cpu and gpu and is given below. You can see from charts and table below, that it easy to use it in real time using gpu.
 
 ## CPU performance
 <table border="1" class="dataframe">
