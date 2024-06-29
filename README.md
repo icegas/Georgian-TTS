@@ -13,6 +13,33 @@ https://github.com/icegas/Georgian-TTS/assets/32134483/a40020d5-dfe4-4da7-8fc4-9
 
 
 
+https://github.com/icegas/Georgian-TTS/assets/32134483/b0c1d7e3-61e5-457e-ba4a-c6d8fa467aa2
+
+
+
+https://github.com/icegas/Georgian-TTS/assets/32134483/589fc31e-c648-4128-bd52-4eca140ed05b
+
+
+
+https://github.com/icegas/Georgian-TTS/assets/32134483/e7bb0b26-2a78-4e4b-a7ad-441b0c7a0fe2
+
+
+
+
+https://github.com/icegas/Georgian-TTS/assets/32134483/d362e3ca-b309-473b-8c3d-22770400e5e2
+
+# 3 ნიმუში სხვადასხვა სიჩქარით / 3 samples with different speed
+
+https://github.com/icegas/Georgian-TTS/assets/32134483/ac184fc1-94ea-4c5d-9a04-1293ec562e07
+
+
+
+
+
+
+https://github.com/icegas/Georgian-TTS/assets/32134483/e19d84ee-038e-4da9-ad41-b2c3c510e3cb
+
+
 
 # ხარისხის ანალიზი MOS-ის გამოყენებით / Quality analysis using Mean Opinion Score (MOS)
 MOS - მეტრიკა აუდიოს ხარისხის შესაფასებლად, დიაპაზონი არის [0-5] 0 შორის - ცუდი ხარისხი, 5 - იდეალური ხარისხი. \
