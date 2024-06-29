@@ -23,6 +23,9 @@ MOS - metric for audio quality estimation, range is between [0-5] 0 - Bad qualit
 Actually it was trained on English language, but i've found that for other languages it also correlates with quality. <br />
 Chart with MOS scores that was estimated from generated audio using 1000 phrases from test_text.txt file is given below.
 
+![mos_hist](https://github.com/icegas/Georgian-TTS/assets/32134483/97f4a4cd-29c4-4f5d-9675-def6412a6f4c)
+
+
 # შესრულების ანალიზი / Performance analysis
 შესრულების შედეგები გამოცდილი იყო GPU RTX 4090 (24 GB) და CPU 13th Gen Intel(R) Core(TM) i9-13900K. \
 Ubuntu 22.04.4 LTS \
