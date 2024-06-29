@@ -21,6 +21,10 @@ https://github.com/icegas/Georgian-TTS/assets/32134483/589fc31e-c648-4128-bd52-4
 
 
 
+https://github.com/icegas/Georgian-TTS/assets/32134483/f55e534a-b4ee-401f-a9bf-f03ebec206be
+
+
+
 https://github.com/icegas/Georgian-TTS/assets/32134483/e7bb0b26-2a78-4e4b-a7ad-441b0c7a0fe2
 
 
