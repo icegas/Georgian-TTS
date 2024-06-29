@@ -22,30 +22,13 @@ Performance results was tested on GPU RTX 4090 (24GB) and CPU 13th Gen Intel(R) 
 Ubuntu 22.04.4 LTS \
 Box plots with different number of characters, audio durations and their infrence time on cpu and gpu is given below. You can see from charts and table below, that it easy to use it in real time using gpu.
 
-<div>
-<style scoped>
-    .dataframe tbody tr th:only-of-type {
-        vertical-align: middle;
-    }
-
-    .dataframe tbody tr th {
-        vertical-align: top;
-    }
-
-    .dataframe thead tr th {
-        text-align: left;
-    }
-
-    .dataframe thead tr:last-of-type th {
-        text-align: right;
-    }
-</style>
+## CPU performance
 <table border="1" class="dataframe">
   <thead>
     <tr>
       <th></th>
       <th colspan="5" halign="left">inference time</th>
-      <th>audio duration in seconds</th>
+      <th colspan="5" halign="left">audio duration in seconds</th>
     </tr>
     <tr>
       <th></th>
@@ -54,10 +37,109 @@ Box plots with different number of characters, audio durations and their infrenc
       <th>quantile_0.25</th>
       <th>quantile_0.75</th>
       <th>quantile_0.99</th>
-      <th></th>
+      <th>mean</th>
+      <th>quantile_0.01</th>
+      <th>quantile_0.25</th>
+      <th>quantile_0.75</th>
+      <th>quantile_0.99</th>
     </tr>
     <tr>
       <th>number of characters</th>
+      <th></th>
+      <th></th>
+      <th></th>
+      <th></th>
+      <th></th>
+      <th></th>
+      <th></th>
+      <th></th>
+      <th></th>
+      <th></th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <th>32</th>
+      <td>0.320311</td>
+      <td>0.146636</td>
+      <td>0.157055</td>
+      <td>0.168328</td>
+      <td>4.103730</td>
+      <td>3.929861</td>
+      <td>3.657143</td>
+      <td>3.851610</td>
+      <td>3.982222</td>
+      <td>4.458928</td>
+    </tr>
+    <tr>
+      <th>64</th>
+      <td>0.675573</td>
+      <td>0.199406</td>
+      <td>0.210842</td>
+      <td>0.223745</td>
+      <td>5.381177</td>
+      <td>6.401858</td>
+      <td>6.141678</td>
+      <td>6.292608</td>
+      <td>6.504490</td>
+      <td>6.711263</td>
+    </tr>
+    <tr>
+      <th>256</th>
+      <td>10.147135</td>
+      <td>0.590234</td>
+      <td>0.629524</td>
+      <td>14.319341</td>
+      <td>14.778163</td>
+      <td>20.833988</td>
+      <td>20.211926</td>
+      <td>20.607710</td>
+      <td>21.008254</td>
+      <td>21.584922</td>
+    </tr>
+    <tr>
+      <th>512</th>
+      <td>21.829358</td>
+      <td>1.131615</td>
+      <td>26.419551</td>
+      <td>27.857851</td>
+      <td>28.568445</td>
+      <td>38.878563</td>
+      <td>38.056345</td>
+      <td>38.553832</td>
+      <td>39.154649</td>
+      <td>39.882014</td>
+    </tr>
+  </tbody>
+</table>
+
+## GPU performance
+<table border="1" class="dataframe">
+  <thead>
+    <tr>
+      <th></th>
+      <th colspan="5" halign="left">inference time</th>
+      <th colspan="5" halign="left">audio duration in seconds</th>
+    </tr>
+    <tr>
+      <th></th>
+      <th>mean</th>
+      <th>quantile_0.01</th>
+      <th>quantile_0.25</th>
+      <th>quantile_0.75</th>
+      <th>quantile_0.99</th>
+      <th>mean</th>
+      <th>quantile_0.01</th>
+      <th>quantile_0.25</th>
+      <th>quantile_0.75</th>
+      <th>quantile_0.99</th>
+    </tr>
+    <tr>
+      <th>number of characters</th>
+      <th></th>
+      <th></th>
+      <th></th>
+      <th></th>
       <th></th>
       <th></th>
       <th></th>
@@ -74,7 +156,11 @@ Box plots with different number of characters, audio durations and their infrenc
       <td>0.015937</td>
       <td>0.016883</td>
       <td>0.407303</td>
-      <td>3.982222</td>
+      <td>3.962485</td>
+      <td>3.691973</td>
+      <td>3.866122</td>
+      <td>4.017052</td>
+      <td>4.435476</td>
     </tr>
     <tr>
       <th>64</th>
@@ -83,7 +169,11 @@ Box plots with different number of characters, audio durations and their infrenc
       <td>0.021048</td>
       <td>0.021985</td>
       <td>0.536277</td>
-      <td>3.831293</td>
+      <td>6.417995</td>
+      <td>6.094658</td>
+      <td>6.269388</td>
+      <td>6.548027</td>
+      <td>6.898068</td>
     </tr>
     <tr>
       <th>256</th>
@@ -92,7 +182,11 @@ Box plots with different number of characters, audio durations and their infrenc
       <td>0.060569</td>
       <td>0.064237</td>
       <td>1.504808</td>
-      <td>20.712200</td>
+      <td>20.838980</td>
+      <td>20.233520</td>
+      <td>20.642540</td>
+      <td>21.066304</td>
+      <td>21.397653</td>
     </tr>
     <tr>
       <th>512</th>
@@ -101,11 +195,14 @@ Box plots with different number of characters, audio durations and their infrenc
       <td>0.118506</td>
       <td>2.785288</td>
       <td>2.876193</td>
-      <td>6.234558</td>
+      <td>38.943695</td>
+      <td>37.695971</td>
+      <td>38.542222</td>
+      <td>39.256236</td>
+      <td>39.999390</td>
     </tr>
   </tbody>
 </table>
-</div>
 
 # კონტაქტები / Contacts
 თუ გაინტერესებთ ქართული TTS მოდელის ტესტირება, გთხოვთ, ნუ მოგერიდებათ მომწეროთ ელექტრონული ფოსტით: icegas555@gmail.com <br /> 
