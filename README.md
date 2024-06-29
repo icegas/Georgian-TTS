@@ -255,7 +255,7 @@ Inference time depends on input exponentialy, it's better to spit text on chunks
 თუ გაინტერესებთ ქართული TTS მოდელის ტესტირება, გთხოვთ, ნუ მოგერიდებათ მომწეროთ ელექტრონული ფოსტით: icegas555@gmail.com <br /> 
 ჩვენ ასევე შეგვიძლია დავლიოთ ფინჯანი ყავა და ვიმსჯელოთ პოტენციურ თანამშრომლობაზე, თუ დაინტერესდებით\
 <br />
-If you're intersted in testing Georgian TTS model, please don't hesistate to write me by email: icegas555@gmail.com <br /> 
+If you're intersted in testing Georgian TTS model, please don't hesistate to contact me via email: icegas555@gmail.com <br /> 
 We can also drink a cup of coffe and discuss potential collaboration if you're intersted. 
 # Other languages
-If you need to create TTS system on another language, i'd like to help, please contact me directly by email.
+If you need to create TTS system using different language, i'd like to help, please contact me directly by email.
