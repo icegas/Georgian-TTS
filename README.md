@@ -8,6 +8,15 @@ Georgian text to speech synthesis
 https://github.com/icegas/Georgian-TTS/assets/32134483/e387fb0a-5b6b-4d40-8892-1948ff13e4d9
 
 
+https://github.com/icegas/Georgian-TTS/assets/32134483/426f9fc8-2d26-44ec-84e3-8b511c9cb51e
+
+
+
+https://github.com/icegas/Georgian-TTS/assets/32134483/a40020d5-dfe4-4da7-8fc4-9849a40cb8b5
+
+
+
+
 # ხარისხის ანალიზი MOS-ის გამოყენებით / Quality analysis using Mean Opinion Score (MOS)
 MOS - მეტრიკა აუდიოს ხარისხის შესაფასებლად, დიაპაზონი არის [0-5] 0 შორის - ცუდი ხარისხი, 5 - იდეალური ხარისხი. \
 სინამდვილეში ის ინგლისურ ენაზე იყო მომზადებული, მაგრამ აღმოვაჩინე, რომ სხვა ენებისთვის ის ასევე შეესაბამება ხარისხს. <br /> 
