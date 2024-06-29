@@ -71,7 +71,7 @@ Experements was done with different number of characters, audio durations and th
   <thead>
     <tr>
       <th></th>
-      <th colspan="5" halign="left">inference time</th>
+      <th colspan="5" halign="left">inference time in seconds</th>
       <th colspan="5" halign="left">audio duration in seconds</th>
     </tr>
     <tr>
@@ -162,7 +162,7 @@ Experements was done with different number of characters, audio durations and th
   <thead>
     <tr>
       <th></th>
-      <th colspan="5" halign="left">inference time</th>
+      <th colspan="5" halign="left">inference time in seconds</th>
       <th colspan="5" halign="left">audio duration in seconds</th>
     </tr>
     <tr>
