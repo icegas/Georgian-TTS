@@ -208,7 +208,7 @@ Experements was done with different number of characters, audio durations and th
     </tr>
     <tr>
       <th>64</th>
-      <td>0.032140</td>
+      <td>0.082140</td>
       <td>0.020465</td>
       <td>0.021048</td>
       <td>0.021985</td>
