@@ -248,7 +248,7 @@ Experements was done with different number of characters, audio durations and th
   </tbody>
 </table>
 <br />
-დასკვნის დრო დამოკიდებულია შეყვანის ექსპონენციალურობაზე, დამუშავებისთვის სჯობს ტექსტი 64-128 სიმბოლოთი თითოეული ნაწილებზე გადაფურთხოთ./
+დასკვნის დრო დამოკიდებულია შეყვანის ექსპონენციალურობაზე, დამუშავებისთვის სჯობს ტექსტი 64-128 სიმბოლოთი თითოეული ნაწილებზე გადაფურთხოთ. <br />
 Inference time depends on input exponentialy, it's better to spit text on chunks 64-128 characters each for processing.
 
 # კონტაქტები / Contacts
